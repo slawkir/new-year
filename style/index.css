@@ -31,7 +31,7 @@ li {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    gap: 100px;
+    gap: 50px;
 }
 
 header {
@@ -78,6 +78,13 @@ nav > ul {
 color: red;
 font-size: 20px;
  }
+
+ nav h4:hover {
+    scale: 1.1;
+    text-decoration: underline;
+    font-weight: 900;
+    color:tomato;
+ }
  
  .block-content {
     display: flex;
@@ -98,3 +105,147 @@ font-size: 20px;
     gap: 50px;
  }
 
+
+
+
+.block-content__images {
+    padding-top: 20px;
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    gap: 80px;
+    width: 100%;
+}
+.block-content__images__item-wrap {
+    overflow: hidden;
+}
+.block-content__images__item {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    /* gap: 10px; */
+    width: 159px;
+    height: 250px;
+    border: 5px solid white;
+    border-radius: 20px;
+    /* padding-bottom: 5px; */
+    position: relative;
+}
+
+.block-content__images__item__title {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 35px;
+    /* left: 55px; */
+}
+.item-bg {
+    width: 150px !important;
+    height: 153px !important;
+    border-radius: 20px;
+    background-size: cover;
+    margin-top: -2px;
+    margin-bottom: 5px;
+}
+
+.zvezda {
+    background-image: url(../pages/inner/object-zvezda/img/1.JPG);
+}
+.solnechnyj {
+    background-image: url(../pages/inner/object-solnechnyj/img/1.JPG);
+}
+.volnovka {
+    background-image: url(../pages/build/object-volnovka/img/1.jpg);
+}
+.dsi10 {
+    background-image: url(../pages/build/object-dsi10/img/1.jpg);
+}
+.dsi16 {
+    background-image: url(../pages/inner/object-dsi16/img/1.jpg);
+}
+.dms14 {
+    background-image: url(../pages/inner/object-dms14/img/1.JPG);
+}
+.dms6 {
+    background-image: url(../pages/build/object-dms6/img/1.jpg);
+}
+.dms7-build {
+    background-image: url(../pages/build/object-dms7/img/1.jpg);
+}
+.dms7-tree {
+    background-image: url(../pages/tree/object-dms7/img/1.jpg);
+}
+.dui {
+    background-image: url(../pages/inner/object-dui/img/1.jpg);
+}
+.romantik {
+    background-image: url(../pages/inner/object-romantik/img/1.jpg);
+}
+.romantik-tree {
+    background-image: url(../pages/tree/object-romantik/img/1.jpg);
+}
+.dsi8-build {
+    background-image: url(../pages/build/object-dsi8/img/1.jpg);
+}
+.dsi8-tree {
+    background-image: url(../pages/tree/object-dsi8/img/1.jpg);
+}
+.zvezda-tree {
+    background-image: url(../pages/tree/object-zvezda/img/1.JPG);
+}
+.gdknt-tree {
+    background-image: url(../pages/tree/object-gdknt/img/1.jpg);
+}
+.dmsi5 {
+    background-image: url(../pages/inner/object-dms5/img/1.jpg);
+}
+.block-content__images__item:hover {
+    border: 5px solid red;
+}
+
+.star {
+    display: block;
+    width: 32px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 5px;
+    left: 65px;
+}
+
+.active {
+    scale: 1.1;
+    text-decoration: underline;
+    font-weight: 900;
+    color:tomato;
+}
+
+
+
+@media (max-width: 900px) {
+    .container {
+        align-items: center;
+        justify-content: center;
+    }
+    main {
+        flex-direction: column;
+    }
+    nav {
+        width: 100%;
+    }
+    .block-content {
+        width: 100%;
+    }
+    .block-content__images {
+        margin: 0 auto;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .block-content > h2 {
+        margin-top: 30px;
+        font-size: 30px;
+        color: white;
+        text-align: center;
+    }
+}
