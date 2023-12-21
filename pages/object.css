@@ -115,6 +115,8 @@ font-weight: 600 !important;
 
 @media (max-width: 900px) {
     .container {
+        padding-left: 15px;
+        padding-right: 15px;
         align-items: center;
         justify-content: center;
     }
