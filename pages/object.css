@@ -120,6 +120,9 @@ font-weight: 600 !important;
         align-items: center;
         justify-content: center;
     }
+    header img {
+        width: 65px; 
+    }
     main {
         flex-direction: column;
         gap: 10px;
