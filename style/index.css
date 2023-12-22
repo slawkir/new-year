@@ -156,49 +156,49 @@ font-size: 20px;
     background-image: url(../pages/inner/object-solnechnyj/img/1.JPG);
 }
 .volnovka {
-    background-image: url(../pages/build/object-volnovka/img/1.jpg);
+    background-image: url(../pages/build/object-volnovka/img/1.JPG);
 }
 .dsi10 {
-    background-image: url(../pages/build/object-dsi10/img/1.jpg);
+    background-image: url(../pages/build/object-dsi10/img/1.JPG);
 }
 .dsi16 {
-    background-image: url(../pages/inner/object-dsi16/img/1.jpg);
+    background-image: url(../pages/inner/object-dsi16/img/1.JPG);
 }
 .dms14 {
     background-image: url(../pages/inner/object-dms14/img/1.JPG);
 }
 .dms6 {
-    background-image: url(../pages/build/object-dms6/img/1.jpg);
+    background-image: url(../pages/build/object-dms6/img/1.JPG);
 }
 .dms7-build {
-    background-image: url(../pages/build/object-dms7/img/1.jpg);
+    background-image: url(../pages/build/object-dms7/img/1.JPG);
 }
 .dms7-tree {
-    background-image: url(../pages/tree/object-dms7/img/1.jpg);
+    background-image: url(../pages/tree/object-dms7/img/1.JPG);
 }
 .dui {
-    background-image: url(../pages/inner/object-dui/img/1.jpg);
+    background-image: url(../pages/inner/object-dui/img/1.JPG);
 }
 .romantik {
-    background-image: url(../pages/inner/object-romantik/img/1.jpg);
+    background-image: url(../pages/inner/object-romantik/img/1.JPG);
 }
 .romantik-tree {
-    background-image: url(../pages/tree/object-romantik/img/1.jpg);
+    background-image: url(../pages/tree/object-romantik/img/1.JPG);
 }
 .dsi8-build {
-    background-image: url(../pages/build/object-dsi8/img/1.jpg);
+    background-image: url(../pages/build/object-dsi8/img/1.JPG
 }
 .dsi8-tree {
-    background-image: url(../pages/tree/object-dsi8/img/1.jpg);
+    background-image: url(../pages/tree/object-dsi8/img/1.JPG);
 }
 .zvezda-tree {
     background-image: url(../pages/tree/object-zvezda/img/1.JPG);
 }
 .gdknt-tree {
-    background-image: url(../pages/tree/object-gdknt/img/1.jpg);
+    background-image: url(../pages/tree/object-gdknt/img/1.JPG);
 }
 .dmsi5 {
-    background-image: url(../pages/inner/object-dms5/img/1.jpg);
+    background-image: url(../pages/inner/object-dms5/img/1.JPG);
 }
 .block-content__images__item:hover {
     border: 5px solid red;
@@ -224,6 +224,8 @@ font-size: 20px;
 
 @media (max-width: 900px) {
     .container {
+        padding-left: 15px;
+        padding-right: 15px;
         align-items: center;
         justify-content: center;
     }
