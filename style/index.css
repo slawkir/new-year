@@ -213,11 +213,11 @@ font-size: 20px;
     left: 65px;
 }
 
-.active {
+.active-el {
     scale: 1.1;
     text-decoration: underline;
     font-weight: 900;
-    color:tomato;
+    color:gold;
 }
 
 
@@ -229,6 +229,9 @@ font-size: 20px;
         align-items: center;
         justify-content: center;
     }
+    h1 {
+        font-size: 18px;
+    }
     main {
         flex-direction: column;
     }
@@ -238,6 +241,9 @@ font-size: 20px;
     .block-content {
         width: 100%;
     }
+    .block-content > ul > li {
+        font-size: 15px;
+    }
     .block-content__images {
         margin: 0 auto;
         width: 100%;
@@ -246,7 +252,7 @@ font-size: 20px;
     }
     .block-content > h2 {
         margin-top: 30px;
-        font-size: 30px;
+        font-size: 22px;
         color: white;
         text-align: center;
     }
