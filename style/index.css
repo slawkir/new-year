@@ -212,6 +212,21 @@ font-size: 20px;
 .cbs-inner {
     background-image: url(../pages/inner/object-cbs/img/1.JPG);
 }
+.dsi11-inner {
+    background-image: url(../pages/inner/object-dsi11/img/1.JPG);
+}
+.dsi11-tree {
+    background-image: url(../pages/tree/object-dsi11/img/1.JPG);
+}
+.cks-build {
+    background-image: url(../pages/build/object-cks/img/1.jpg);
+}
+.cks-inner {
+    background-image: url(../pages/inner/object-cks/img/1.jpg);
+}
+.cks-tree {
+    background-image: url(../pages/tree/object-cks/img/1.JPG);
+}
 .block-content__images__item:hover {
     border: 5px solid red;
 }
